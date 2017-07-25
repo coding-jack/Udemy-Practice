@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms Exercise</title>
+</head>
+<body>
+
+<h1>Register</h1>
+
+<form>
+	<div>
+		<label for="firstName">First Name: </label>
+		<input id="firstName" type="text" name="FirstName" placeholder="John" required>
+		<label for="lastName">Last Name: </label>
+		<input id="lastName" type="text" name="LastName" placeholder="Smith" required>
+	</div>
+	<div>
+		<label for="male">Male</label>
+		<input id="male" type="radio" value="male" name="gender">
+		<label for="female">Female</label>
+		<input id="female" type="radio" value="female" name="gender">
+		<label for="other">Other </label>
+		<input id="other" type="radio" value="other" name="gender">
+	</div>
+	<div>
+		<label for="email">Email:</label>
+		<input id="email" type="email" name="email" required placeholder="Your Email">
+		<label for="password">Password</label>
+		<input id="password" type="password" name="password" minlength=5 maxlength=10 size=10 required>
+	</div>
+	<div>
+		<label for="birthday">Birthday:</label>
+		<select id="birthday" name="month" required>
+			<option>Shit</option>
+			<option>Fuck</option>
+			<option>Ass</option>
+		</select>
+		<select id="birthday" name="day" required>
+			<option>Shit</option>
+			<option>Fuck</option>
+			<option>Ass</option>
+		</select>
+		<select id="birthday" name="year" required>
+			<option>Shit</option>
+			<option>Fuck</option>
+			<option>Ass</option>
+		</select>
+	</div>
+	<div>
+		<label for="termsandconditions">I Agree to the Terms and Conditions:</label>
+		<input id="termsandconditions" type="checkbox" name="checkbox" required>
+	</div>
+	<button>Submit</button>
+</form>
+
+</body>
+</html>
